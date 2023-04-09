@@ -5,3 +5,26 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+main {
+  opacity: 0.8;
+}
+
+a {
+  color: hsl(207, 44%, 49%);
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover,
+a:focus {
+  /* color: hsl(189, 44%, 49%); */
+  opacity: 0.4;
+  background-color: hsla(180, 72%, 46%, 0.453);
+}
+
+a:active {
+  color: red;
+}
